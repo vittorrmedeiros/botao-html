@@ -7,15 +7,10 @@
 body {
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #FFFFFF;
-}
-
-.botao p {
-    color: #FFFFFF;
-    font-size: 15px;
-    font-weight: 700;
 }
 
 .botao {
@@ -28,8 +23,35 @@ body {
     border: none;
 }
 
+.botao p {
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 700;
+}
+
 .botao:hover {
     background-color: rgb(39, 98, 156);
     cursor: pointer;
 }
 
+.botao2 {
+    display: block;
+    width: 20em;
+    height: 45px;
+    background-color: #4189e626;
+    border-radius: 6px;
+    transition: 0.50s;
+    border: none;
+    margin-top: 8px;
+}
+
+.botao2 p {
+    color: rgb(0, 128, 255);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.botao2:hover {
+    background-color: #4189e649;
+    cursor: pointer;
+}
